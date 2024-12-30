@@ -66,6 +66,7 @@ php artisan db:seed --class=AssignAdminRoleSeeder
 ```bash
 php artisan db:seed
 ```
+
 11. Connect the storage 
 
 ```bash
@@ -74,11 +75,13 @@ php artisan storage:link
 
 12. Run the development server
 
+
 ```bash
 composer run dev
 ```
 
 ## (Optional)
+
 
 13. Modify the images needed for each resource in the database by:
     -   Navigate the browser url to `http://localhost:8000/admin` and log in using the created filament admin user
