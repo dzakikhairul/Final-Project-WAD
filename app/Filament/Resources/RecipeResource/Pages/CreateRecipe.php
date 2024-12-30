@@ -9,9 +9,6 @@ use Filament\Resources\Pages\CreateRecord;
 class CreateRecipe extends CreateRecord
 {
     protected static string $resource = RecipeResource::class;
-<<<<<<< Updated upstream
-}
-=======
 
     protected function mutateFormDataBeforeCreate(array $data): array
     {
@@ -21,4 +18,3 @@ class CreateRecipe extends CreateRecord
     }
 }
 
->>>>>>> Stashed changes
