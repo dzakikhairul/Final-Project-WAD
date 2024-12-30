@@ -9,7 +9,7 @@ class AssignAdminRoleSeeder extends Seeder
 {
     public function run(): void
     {
-        $user = User::where('email', 'Dennis@gmail.com')->first();
+        $user = User::where('email', 'your-email-here@example.com')->first();
 
         if ($user) {
             $user->assignRole('admin');
