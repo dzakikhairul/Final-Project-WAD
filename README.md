@@ -12,7 +12,7 @@
 1. Clone the repository
 
 ```bash
-git clone https://github.com/puruhitaaa/easyeats.git
+git clone https://github.com/dzakikhairul/Final-Project-WAD.git
 ```
 
 2. Install PHP dependencies
@@ -67,7 +67,14 @@ php artisan db:seed --class=AssignAdminRoleSeeder
 php artisan db:seed
 ```
 
-11. Run the development server
+11. Connect the storage 
+
+```bash
+php artisan storage:link 
+```
+
+12. Run the development server
+
 
 ```bash
 composer run dev
@@ -75,7 +82,8 @@ composer run dev
 
 ## (Optional)
 
-12. Modify the images needed for each resource in the database by:
+
+13. Modify the images needed for each resource in the database by:
     -   Navigate the browser url to `http://localhost:8000/admin` and log in using the created filament admin user
     -   Each resource will be displayed on the sidebar, click on each resource to access the respective table and add/edit the image field
 
