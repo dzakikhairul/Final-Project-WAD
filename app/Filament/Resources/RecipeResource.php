@@ -149,4 +149,5 @@ class RecipeResource extends Resource
             'edit' => Pages\EditRecipe::route('/{record}/edit'),
         ];
     }
+    
 }
